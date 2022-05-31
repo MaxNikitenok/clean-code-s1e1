@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.header img {
+.header__image {
   width: 100%;
 }
 .header .more-inf {
@@ -122,12 +122,12 @@ button {
 .list-item > .text-input {
   width: 226px
 }
-.delete img {
+.delete__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete img:hover {
+.delete__image:hover {
   transform: rotateZ(0);
 }
 
